@@ -117,7 +117,7 @@ financial-python-powerbi-analysis/
 ---
 
 ## 📊 Data Source
-- I will Provide financial dataset (CSV/Excel format).  
+- [This is financial dataset](https://www.kaggle.com/datasets/atharvaarya25/financials) (CSV/Excel format).  
 - Processed in Python and visualized in Power BI.  
 
 ---
