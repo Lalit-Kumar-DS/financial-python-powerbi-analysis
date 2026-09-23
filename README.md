@@ -1,5 +1,7 @@
 # Financial Performance Analysis Portfolio
 
+I am a data analyst focused on turning raw business data into clear, decision-ready insights using Python, Power BI, and analytical storytelling. This project highlights my ability to clean financial data, derive meaningful KPIs, and present actionable business findings through interactive dashboards.
+
 This project combines Python-based data cleaning and exploratory analysis with Power BI dashboard storytelling to uncover business insights across product lines, customer segments, countries, and pricing performance.
 
 It is designed as a portfolio-ready business intelligence project that demonstrates how raw financial data can be transformed into actionable insights for decision-making.
@@ -139,8 +141,4 @@ Data Analyst | AI & Data Science Graduate
 LinkedIn: [https://www.linkedin.com/in/lalit-kumar-d05-ds/](https://www.linkedin.com/in/lalit-kumar-d05-ds/)
 
 ---
-
-## ✅ Portfolio Summary
-
-This project demonstrates practical analytical thinking, Python-based data preparation, and effective business reporting through Power BI. It is well suited for showcasing data analysis, financial insight generation, and dashboard communication skills in a professional portfolio.
 
