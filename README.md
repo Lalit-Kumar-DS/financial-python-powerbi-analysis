@@ -1,131 +1,146 @@
-# Financial Analysis with Python & Power BI
+# Financial Performance Analysis Portfolio
 
-A comprehensive project showcasing **data processing in Python** and **visualization in Power BI** to analyze financial performance across segments, products, and countries.
+This project combines Python-based data cleaning and exploratory analysis with Power BI dashboard storytelling to uncover business insights across product lines, customer segments, countries, and pricing performance.
 
----
-
-## 📑 Table of Contents
-- [Overview](#-overview)
-- [Workflow](#-workflow)
-- [Data Processing (Python)](#-data-processing-python)
-- [Visualization (Power-BI)](#-visualization-power-bi)
-- [Key Insights](#-key-insights)
-- [Recommendations](#-recommendations)
-- [Outcome](#-outcome)
-- [Tech Stack](#-tech-stack)
-- [Repository Structure](#-repository-structure)
-- [Data Source](#-data-source)
-- [Author](#-author)
+It is designed as a portfolio-ready business intelligence project that demonstrates how raw financial data can be transformed into actionable insights for decision-making.
 
 ---
 
-## 🔎 Overview
-This project demonstrates how raw financial data can be cleaned, processed, and transformed using **Python** before being visualized in **Power BI**.  
-The goal is to uncover insights into profitability, sales efficiency, and segment performance.
+## 📌 Project Overview
+
+The analysis focuses on understanding the relationship between sales, profit, costs, discounts, and product performance. By cleaning and transforming the data in Python and then visualizing key trends in Power BI, this project highlights where value is being generated and where profitability is being weakened.
+
+### Core objectives
+- Analyze financial performance by segment, product, month, and country
+- Identify profit drivers and loss-making segments
+- Evaluate the effect of discounts and pricing on margin
+- Present insights in an interactive dashboard for stakeholder review
 
 ---
 
-## ⚙️ Workflow
-1. **Data Collection** – Import raw CSV/Excel datasets.  
-2. **Data Cleaning** – Handle missing values, fix formatting issues, and normalize fields.  
-3. **Data Transformation** – Apply business rules, calculate KPIs (Profit, Margin, COGS, Units Sold).  
-4. **Visualization** – Build interactive dashboards in Power BI.  
-5. **Insights & Recommendations** – Interpret results to guide decision-making.
+## 📊 Project at a Glance
+
+| Area | Details |
+| --- | --- |
+| Domain | Financial analytics and business intelligence |
+| Data Source | Kaggle financial dataset |
+| Analysis Language | Python |
+| Visualization Tool | Power BI |
+| Key Metrics | Profit, Sales, COGS, Discounts, Units Sold, Margins |
+| Scope | Segment, country, product, month, and year performance |
+| Output | Cleaned dataset + interactive dashboard |
 
 ---
 
-## 🐍 Data Processing (Python)
-- Used **Pandas** for data cleaning and transformation.  
-- Applied **NumPy** for numerical calculations.  
-- Visualized trends and distributions with **Matplotlib** and **Seaborn**.  
-- Exported processed datasets for Power BI integration.  
-- Example tasks:
-  - Removing duplicates  
-  - Handling null values  
-  - Calculating profit margins and revenue per unit  
-  - Plotting distributions and correlations for exploratory analysis 
+## 🔄 Workflow
+
+1. Data collection from the source financial dataset
+2. Data cleaning and transformation in Python
+3. KPI derivation and validation of financial columns
+4. Exploratory data analysis for trends and relationships
+5. Dashboard creation in Power BI for business storytelling
+6. Insight generation and recommendations for stakeholders
 
 ---
 
-## 📊 Visualization (Power-BI)
-- Built dashboards to analyze:
-  - Profit by Segment (Enterprise, Government, Small Business, etc.)  
-  - Profit Margin by Country (Germany, France, Canada, Mexico, USA)  
-  - Monthly trends (COGS vs Profit)  
-- Interactive filters for **Country, Year, Month**.  
-- Sankey diagrams, donut charts, and bar charts for clear storytelling.
+## 🐍 Python Data Processing
+
+The Python workflow includes:
+- Data import and validation
+- Removal of formatting inconsistencies such as currency symbols and commas
+- Handling missing or invalid values
+- Converting monetary columns to numeric values
+- Calculating profit and discount-related metrics
+- Exploratory visual analysis using Pandas, NumPy, Matplotlib, and Seaborn
+
+This preprocessing prepares the data for structured business analysis and accurate dashboard reporting.
 
 ---
 
-## 📈 Key Insights
-- **Enterprise segment** showed negative profit (-$614K).  
-- **Government segment** contributed the highest profit ($11.3M).  
-- **Profit Margin** varied across countries, with Germany leading at 15.66%.  
-- Discounts were high (7.2%), impacting margins.  
-- Net sales reached **$118.7M** after total discounts.
+## 📈 Key Business Insights
+
+The analysis reveals several important findings:
+- The Government segment delivered the strongest profit contribution
+- The Enterprise segment showed negative profit and requires strategic review
+- Germany had the highest margin among the analyzed countries
+- Discounts significantly influenced profitability and margin performance
+- Net sales reached approximately $118.7M, with discount pressure affecting overall return
+
+These results help identify both growth opportunities and areas where operating performance needs improvement.
 
 ---
 
 ## 💡 Recommendations
-- Reassess **Enterprise strategy** due to consistent losses.  
-- Optimize **discount policies** to improve margins.  
-- Focus on **Government and Small Business segments** for sustainable growth.  
-- Explore cost reduction opportunities in **COGS-heavy areas**.  
+
+- Reassess the Enterprise strategy and cost structure to reduce losses
+- Review discount policies to improve profit margin without reducing volume excessively
+- Prioritize investment and sales focus on Government and Small Business segments
+- Investigate product and country combinations with weaker margin efficiency
+- Use the dashboard for ongoing monitoring of profitability trends over time
 
 ---
 
-## 🎯 Outcome
-- Delivered a **data-driven dashboard** for financial performance monitoring.  
-- Enabled stakeholders to make **informed decisions** based on segment and country-level insights.  
-- Demonstrated integration of **Python data processing** with **Power BI visualization**.
+## 📉 Dashboard Preview
+
+The project includes a Power BI dashboard and supporting visuals that summarize the financial story across the dataset.
+
+![Dashboard Preview 1](images/dashboard_1.JPG)
+
+![Dashboard Preview 2](images/dashboard_2.jpg)
 
 ---
 
 ## 🛠 Tech Stack
-- **Python**  
-  - Pandas  
-  - NumPy  
-  - Matplotlib  
-  - Seaborn  
-- **Power BI** (Dashboards, Charts, Filters)  
-- **Excel/CSV** (Raw data source)   
+
+- Python
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+- Power BI
+- CSV dataset processing
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
-
-financial-python-powerbi-analysis/
-```
-│── data/
-│   ├── raw/                # Raw CSV 
-│   ├── cleaned/            # Cleaned CSV files
-│
-│── scripts/                # Python scripts for data processing
-│
-│── dashboards/             # Power BI dashboard file (.pbix)
-│
-│── images/                 # Dashboard screenshots
+```text
+Financial_analysis/
+├── dashboard/
+│   └── Financial_dashboard.pbix
+├── data/
+│   └── Cleaned_Financuaks.csv
+├── images/
 │   ├── dashboard_1.JPG
-│   ├── dashboard_2.JP
-│
-│──.gitignore
-│
-│── README.md    
+│   └── dashboard_2.jpg
+├── script/
+│   └── financial_analysis.ipynb
+├── .gitignore
+├── README.md
+└── LICENSE (if present in the repository)
 ```
 
 ---
 
 ## 📊 Data Source
-- [This is financial dataset](https://www.kaggle.com/datasets/atharvaarya25/financials) (CSV/Excel format).  
-- Processed in Python and visualized in Power BI.  
+
+The dataset used in this project is a financial sales dataset from Kaggle. It contains metrics related to revenue, cost, discounts, segments, products, and regional performance.
+
+- Kaggle dataset: https://www.kaggle.com/datasets/atharvaarya25/financials
 
 ---
 
 ## 👨‍💻 Author
-**Lalit Kumar**  
-Data Analyst | AI & Data Science Graduate  
-📍 New Delhi, India  
-🔗 GitHub: [financial-python-powerbi-analysis](https://github.com/Lalit-Kumar-DS/financial-python-powerbi-analysis.git)
-🔗 LinkedIn: [Lalit Kumar](https://www.linkedin.com/in/lalit-kumar-ds)
+
+**Lalit Kumar**
+
+Data Analyst | AI & Data Science Graduate
+
+LinkedIn: [https://www.linkedin.com/in/lalit-kumar-d05-ds/](https://www.linkedin.com/in/lalit-kumar-d05-ds/)
+
 ---
+
+## ✅ Portfolio Summary
+
+This project demonstrates practical analytical thinking, Python-based data preparation, and effective business reporting through Power BI. It is well suited for showcasing data analysis, financial insight generation, and dashboard communication skills in a professional portfolio.
+
