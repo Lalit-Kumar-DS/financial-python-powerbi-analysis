@@ -4,7 +4,9 @@ I am a data analyst focused on turning raw business data into clear, decision-re
 
 This project combines Python-based data cleaning and exploratory analysis with Power BI dashboard storytelling to uncover business insights across product lines, customer segments, countries, and pricing performance.
 
-It is designed as a portfolio-ready business intelligence project that demonstrates how raw financial data can be transformed into actionable insights for decision-making.
+The objective is to identify profit drivers, understand margin pressure, and support business decisions related to discount strategy, product performance, and regional sales efficiency.
+
+This analysis helps answer key business questions such as: which segments are profitable, where margins are weakening, and how discounting and cost structures influence overall performance.
 
 ---
 
@@ -31,6 +33,33 @@ The analysis focuses on understanding the relationship between sales, profit, co
 | Key Metrics | Profit, Sales, COGS, Discounts, Units Sold, Margins |
 | Scope | Segment, country, product, month, and year performance |
 | Output | Cleaned dataset + interactive dashboard |
+
+---
+
+## 🎯 Business Problem & Impact
+
+This project addresses a common business challenge: understanding which revenue streams are truly valuable and which segments are eroding profitability.
+
+By analyzing the relationship between sales, costs, discounts, and profit, the dashboard helps stakeholders identify:
+- underperforming segments
+- country-level margin patterns
+- product and pricing inefficiencies
+- pricing and discount strategies that affect profitability
+
+The business impact is improved decision-making for revenue optimization, discount control, and strategic investment prioritization.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Python for data cleaning and analysis
+- Pandas for data transformation and feature preparation
+- NumPy for numerical analysis
+- Matplotlib and Seaborn for exploratory visualization
+- Power BI for interactive dashboard storytelling
+- KPI derivation and financial metric analysis
+- Business reporting and insight communication
+- Data validation and data quality checks
 
 ---
 
@@ -137,6 +166,7 @@ The dataset used in this project is a financial sales dataset from Kaggle. It co
 **Lalit Kumar**
 
 Data Analyst | AI & Data Science Graduate
+
 
 LinkedIn: [https://www.linkedin.com/in/lalit-kumar-d05-ds/](https://www.linkedin.com/in/lalit-kumar-d05-ds/)
 
